@@ -1,3 +1,4 @@
-:host, canvas {
-    display: block;
+:host,
+canvas {
+  @apply block shadow-2xl rounded-2xl;
 }
