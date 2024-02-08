@@ -1,4 +1,16 @@
 :host,
 canvas {
-  @apply block shadow-2xl rounded-2xl;
+  @apply block rounded-2xl;
+}
+
+:host {
+  @apply grid place-items-center gap-4 shadow-2xl;
+}
+
+button {
+  @apply h-12 w-12  cursor-pointer appearance-none rounded-full border-solid border-current bg-transparent text-slate-700 hover:text-slate-950 active:text-slate-950 disabled:cursor-default disabled:text-opacity-30;
+}
+
+button span {
+  @apply sr-only;
 }
