@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html class="h-full" lang="en">
+<html class="bg-slate-200 h-full" lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.9, user-scalable=0"
+    />
     <title>ML: Black box</title>
     <script type="module" src="./src/main.ts"></script>
   </head>
-  <body>
-    <div class="min-h-[100svh] bg-slate-200 grid place-items-center" id="root">
-      <ml-canvas></ml-canvas>
+  <body class="overscroll-none">
+    <div class="min-h-[100svh] grid place-items-center px-4" id="root">
+      <ml-canvas class="animate-appear"></ml-canvas>
     </div>
   </body>
 </html>
